@@ -96,6 +96,186 @@
     background: url(/images/logo.png) no-repeat;
 }
 
+.search-input {
+    float: left;
+    height: 36px;
+    padding-top: 25px;
+}
 
+.search-input input {
+    float: left;
+    width: 450px;
+    height: 32px;
+    padding-left: 4px;
+    font: 400 14px/32px "microsoft yahei";
+    color: rgb(153, 153, 153);
+    border: 2px solid #B61D1D;
+    border-right: 0;
+}
 
+.search-input button {
+    width: 82px;
+    height: 36px;
+    color: #fff;
+    float: left;
+    font: 400 16px/36px "微软雅黑";
+    background-color: #B61D1D;
+    cursor: pointer;
+}
+
+.search-car {
+    float: right;
+    width: 96px;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 43px;
+    position: relative;
+    margin: 25px 65px 0 0;
+    border: 1px solid #DFDFDF;
+    background-color: #f9f9f9;
+}
+
+.icon1 {
+    position: absolute;
+    top: 9px;
+    left: 18px;
+    width: 18px;
+    height: 16px;
+    background: url(/images/tel.png) no-repeat 0 -58px;
+}
+
+.icon2 {
+    position: absolute;
+    right: 10px;
+    color: #999;
+    font: 13px/34px "SimSun";
+}
+
+.icon3 {
+    position: absolute;
+    top: -5px;
+    width: 16px;
+    height: 14px;
+    background-color: #C81623;
+    line-height: 14px;
+    text-align: center;
+    color: #fff;
+    border-radius: 7px 7px 7px 0;
+}
+
+.search-moreAlink {
+    float: left;
+    width: 530px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.search-moreAlink a {
+    margin-right: 8px;
+}
 /* search end */
+
+/* 底部口号 start */
+.slogen {
+    height: 54px;
+    padding: 20px 0;
+    background-color: #f5f5f5;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.item {
+    width: 302px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+}
+
+.slogen1 {
+    margin-left: -608px;
+}
+
+.slogen2 {
+    margin-left: -304px;
+}
+
+.slogen3 {
+    margin-left: -2px;
+}
+
+.slogen4 {
+    margin-left: 304px;
+}
+
+/* 底部口号 end */
+
+/*购物指南等 start*/
+.footer-shopping {
+    margin-top: 16px;
+    /*和上方保持距离*/
+}
+
+.footer-shopping dl {
+    float: left;
+    width: 200px;
+}
+
+dl.last-dl {
+    width: 100px;
+}
+
+.footer-shopping dt {
+    height: 34px;
+    font: 400 16px/34px "microsoft yahei";
+}
+
+.footer-shopping dd {
+    line-height: 20px;
+}
+
+/*购物指南等 end*/
+
+/*覆盖区域 start*/
+.coverage {
+    float: left;
+    width: 186px;
+    height: 169px;
+    margin-left: 70px;
+    padding-left: 17px;
+    background: url(/images/china.png) no-repeat left bottom;
+}
+
+.coverage h3 {
+    height: 34px;
+    font: 400 16px/34px "microsoft yahei";
+}
+
+.coverage p {
+    padding-top: 8px;
+}
+
+.coverage a {
+    float: right;
+}
+/*覆盖区域 end*/
+
+/*最底部start*/
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px 0 30px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer-bottom .footer-about a {
+    margin: 0 10px;
+}
+
+.footer-copyright {
+    padding: 10px 0;
+}
+
+.footer-bottom-image a {
+    margin: 0 5px;
+}
+/*最底部end*/

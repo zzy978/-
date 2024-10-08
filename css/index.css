@@ -1,281 +1,214 @@
-/* 顶部导航start */
-.shortcut {
-    height: 30px;
-    line-height: 30px;
-    background-color: #f1f1f1;
-}
-
-.dt,
-.shortcut .fore {
-    padding: 0 20px 0 10px;
+.main-slider {
+    float: left;
+    margin: 12px 12px 0 220px;
+    width: 730px;
+    height: 454px;
     position: relative;
 }
 
-.dt i,
-.fore i {
-    font: 400 15px/15px "宋体";
+.main-slider ul {
     position: absolute;
-    top: 13px;
-    right: 3px;
-    height: 7px;
-    overflow: hidden;
-    width: 15px;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -66px;
 }
 
-.dt s,
-.fore s {
-    position: absolute;
-    top: -8px;
-    left: 0;
-}
-
-.fr li {
+.main-slider ul li {
     float: left;
-    padding: 0 10px;
-}
-
-.fr .line {
-    width: 1px;
-    height: 12px;
-    background-color: #ddd;
-    margin-top: 9px;
-    padding: 0;
-}
-
-.shortcut .tel-jd {
-    padding: 0 20px 0 25px;
-}
-
-.tel {
-    position: absolute;
-    width: 15px;
-    height: 20px;
-    background: url(/images/sprite.png) no-repeat;
-    left: 5px;
-    top: 5px;
-}
-
-/* 顶部导航end */
-
-/* topbanner start */
-.topbanner {
-    background-color: #fd6500;
-}
-
-.close-banner {
-    position: absolute;
-    right: 0;
-    top: 5px;
-    width: 19px;
-    height: 19px;
-    background: url(/images/close-banner.png) no-repeat;
-}
-
-.close-banner:hover {
-    background-position: bottom;
-}
-
-.tb {
-    position: relative;
-}
-/* topbanner end */
-
-/* search start */
-.search-logo {
-    float: left;
-    width: 362px;
-    height: 60px;
-    padding: 20px 0;
-}
-
-.search-logo a {
-    width: 270px;
-    height: 60px;
-    display: block;
-    text-indent: -9999px;
-    background: url(/images/logo.png) no-repeat;
-}
-
-.search-input {
-    float: left;
-    height: 36px;
-    padding-top: 25px;
-}
-
-.search-input input {
-    float: left;
-    width: 450px;
-    height: 32px;
-    padding-left: 4px;
-    font: 400 14px/32px "microsoft yahei";
-    color: rgb(153, 153, 153);
-    border: 2px solid #B61D1D;
-    border-right: 0;
-}
-
-.search-input button {
-    width: 82px;
-    height: 36px;
+    width: 18px;
+    height: 18px;
     color: #fff;
-    float: left;
-    font: 400 16px/36px "微软雅黑";
-    background-color: #B61D1D;
+    background-color: #3e3e3e;
+    border-radius: 50%;
+    line-height: 18px;
+    text-align: center;
+    margin: 0 2px;
     cursor: pointer;
 }
 
-.search-car {
-    float: right;
-    width: 96px;
-    height: 34px;
-    line-height: 34px;
-    padding-left: 43px;
-    position: relative;
-    margin: 25px 65px 0 0;
-    border: 1px solid #DFDFDF;
-    background-color: #f9f9f9;
-}
-
-.icon1 {
+.main-slider .arrow-left {
     position: absolute;
-    top: 9px;
-    left: 18px;
-    width: 18px;
-    height: 16px;
-    background: url(/images/tel.png) no-repeat 0 -58px;
-}
-
-.icon2 {
-    position: absolute;
-    right: 10px;
-    color: #999;
-    font: 13px/34px "SimSun";
-}
-
-.icon3 {
-    position: absolute;
-    top: -5px;
-    width: 16px;
-    height: 14px;
-    background-color: #C81623;
-    line-height: 14px;
-    text-align: center;
+    top: 50%;
+    margin-top: -31px;
+    left: 0;
+    width: 28px;
+    height: 62px;
+    background-color: rgba(0, 0, 0, 0.3);
     color: #fff;
-    border-radius: 7px 7px 7px 0;
+    font: 400 22px/62px "sumsun";
+    text-align: center;
+    border-radius: 10px 0 0 10px;
 }
 
-.search-moreAlink {
-    float: left;
-    width: 530px;
-    height: 28px;
-    line-height: 28px;
-}
-
-.search-moreAlink a {
-    margin-right: 8px;
-}
-/* search end */
-
-/* 底部口号 start */
-.slogen {
-    height: 54px;
-    padding: 20px 0;
-    background-color: #f5f5f5;
-    position: relative;
-    margin-bottom: 15px;
-}
-
-.item {
-    width: 302px;
+.main-slider .arrow-right {
     position: absolute;
-    top: 20px;
-    left: 50%;
+    top: 50%;
+    margin-top: -31px;
+    right: 0;
+    width: 28px;
+    height: 62px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font: 400 22px/62px "sumsun";
+    text-align: center;
+    border-radius: 10px 0 0 10px;
 }
 
-.slogen1 {
-    margin-left: -608px;
+.main-slider .arrow-left:hover, .main-slider .arrow-right:hover {
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
-.slogen2 {
-    margin-left: -304px;
+.main-news-top-faster {
+    height: 163px;
+    border-bottom: 1px dashed #e4e4e4;
 }
 
-.slogen3 {
-    margin-left: -2px;
+.main-news-top-faster-title {
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px dotted #e8e8e8;
+    padding: 0 15px;
 }
 
-.slogen4 {
-    margin-left: 304px;
-}
-
-/* 底部口号 end */
-
-/*购物指南等 start*/
-.footer-shopping {
-    margin-top: 16px;
-    /*和上方保持距离*/
-}
-
-.footer-shopping dl {
+.main-news-top-faster-title h2 {
     float: left;
-    width: 200px;
+    font: 400 16px/32px "microsoft yahei";
 }
 
-dl.last-dl {
-    width: 100px;
-}
-
-.footer-shopping dt {
-    height: 34px;
-    font: 400 16px/34px "microsoft yahei";
-}
-
-.footer-shopping dd {
-    line-height: 20px;
-}
-
-/*购物指南等 end*/
-
-/*覆盖区域 start*/
-.coverage {
-    float: left;
-    width: 186px;
-    height: 169px;
-    margin-left: 70px;
-    padding-left: 17px;
-    background: url(/images/china.png) no-repeat left bottom;
-}
-
-.coverage h3 {
-    height: 34px;
-    font: 400 16px/34px "microsoft yahei";
-}
-
-.coverage p {
-    padding-top: 8px;
-}
-
-.coverage a {
+.main-news-top-faster-title a {
     float: right;
 }
-/*覆盖区域 end*/
 
-/*最底部start*/
-.footer-bottom {
-    margin-top: 20px;
+.main-news-top-faster-content {
+    padding: 5px 0 0 15px;
+}
+
+.main-news-top-faster-content li {
+    line-height: 24px;
+}
+
+.main-news-top-faster-content span {
+    font-weight: 700;
+    margin-right: 5px;
+    color: #666;
+}
+.main-news-top-money {
+    overflow: hidden;
+}
+.main-news-top-money ul {
+    width: 260px;
+    /* float: right; */
+    /* position: relative; */
+}
+
+.main-news-top-money li {
+    width: 62px;
+    height: 70px;
+    border: 1px solid #e8e8e8;
+    float: left;
+    border-top: 0;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+
+.main-news-top-money li a {
+    display: block;
+    width: 62px;
+    height: 30px;
+    padding-top: 40px;
     text-align: center;
-    padding: 20px 0 30px;
-    border-top: 1px solid #e5e5e5;
+    line-height: 30px;
+    position: relative;
 }
 
-.footer-bottom .footer-about a {
-    margin: 0 10px;
+.main-news-top-money li a i {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 13px;
+    left: 18px;
+    background: url(/images/fly.png) no-repeat right top;
 }
 
-.footer-copyright {
-    padding: 10px 0;
+.main-news-top-money li a .main-news-top-money-icon2 {
+    background: url(/images/fly.png) no-repeat right -25px;
 }
 
-.footer-bottom-image a {
-    margin: 0 5px;
+.main-news-bottom {
+    margin-top: 20px;
 }
-/*最底部end*/
+
+/*今日推荐start*/
+.today {
+    padding: 10px 0 20px;
+}
+
+.today-left a {
+    display: block;
+    width: 210px;
+    height: 150px;
+    background: url(/images/today.jpg) no-repeat;
+}
+
+.today-right {
+    float: right;
+    width: 1000px;
+    overflow: hidden;
+    position: relative;
+}
+
+.today-right ul {
+    width: 410%;
+}
+
+.today-right li {
+    float: left;
+    margin-right: 1px;
+}
+
+.today-right .arrow-left {
+    position: absolute;
+    top: 50%;
+    margin-top: -45px;
+    left: 0;
+    width: 16px;
+    height: 62px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font: 400 22px/62px "sumsun";
+    text-align: center;
+    border-radius: 10px 0 0 10px;
+}
+
+.today-right .arrow-right {
+    position: absolute;
+    top: 50%;
+    margin-top: -45px;
+    right: 0;
+    width: 16px;
+    height: 62px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font: 400 22px/62px "sumsun";
+    text-align: center;
+    border-radius: 10px 0 0 10px;
+}
+
+.today-right .arrow-left:hover,
+.today-right .arrow-right:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/*今日推荐end*/
+
+/*banner两侧的广告start*/
+.banner-ad {
+    position: relative;
+}
+
+.banner-ad a {
+    width: 100%;
+    height: 644px;
+    background:url(/images/ad.png) no-repeat center top;
+    position: absolute;
+}
+/*banner两侧的广告end*/
